@@ -1,0 +1,137 @@
+.checkout {
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.checkout:hover {
+    cursor: pointer;
+    background: darkslategrey;
+    color: white;
+}
+
+.checkout:active {
+    background: rgb(22, 36, 36);
+}
+
+.hidden {
+    display: none;
+}
+
+.found {
+    display: block;
+}
+
+.item-display {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item-title {
+    margin: 0;
+}
+
+.store {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.store-item {
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.store-item:hover {
+    cursor: pointer;
+
+}
+
+.item-one {
+    background-image: url('http://net.archbold.k12.oh.us/ahs/web_class/Spring_10/TheHungerGames_Griffin/Images/Mockingjay3.jpg');
+    background-position: center;
+    background-size: 95%;
+    color: white;
+}
+
+.item-two {
+    background-image: url('https://cdn.shopify.com/s/files/1/1089/2120/products/crazy-aaron-s-puttyworld-twilight-hypercolor-thinking-putty-heat-sensitive-hypercolors-23194275073_1024x1024.jpg?v=1537478852');
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+.item-three {
+    background-image: url('https://vignette.wikia.nocookie.net/catan/images/7/7d/Settlers4thcover.jpg/revision/latest?cb=20080925155701');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    color: white;
+    font-size: 25px; 
+}
+
+.item-four {
+    background-image: url('https://cdn.shopify.com/s/files/1/0156/3912/products/bravejournal.jpg?v=1539727041');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+    color: white;
+}
+
+.item-five {
+    background-image: url('https://prodimage.images-bn.com/pimages/4972825146200_p0_v1_s550x406.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+}
+
+.pairing:hover {
+    background: darkslategrey;
+    color: white;
+}
+
+.pairing > p {
+    font-size: 20px;
+}
+
+
+
+
+/* receipt */
+aside {
+    text-align: center;
+}
+
+.closing-remarks {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.final {
+    margin: 0;
+}
+
+
+.receipt-title {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.receipt-title > h4 {
+    margin: 0;
+}
+
+/* close receipt */
